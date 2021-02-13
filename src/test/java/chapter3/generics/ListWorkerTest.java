@@ -1,4 +1,4 @@
-package chapter1;
+package chapter3.generics;
 
 import org.junit.jupiter.api.Test;
 

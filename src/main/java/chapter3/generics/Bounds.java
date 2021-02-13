@@ -1,4 +1,4 @@
-package chapter1;
+package chapter3.generics;
 
 import java.io.EOFException;
 import java.io.IOException;

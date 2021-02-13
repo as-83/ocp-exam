@@ -1,6 +1,5 @@
-package chapter1;
+package chapter3.generics;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class ListWorker {
