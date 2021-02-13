@@ -17,12 +17,8 @@ public class ListWorker {
         return sum;
     }
 
-    public static void main(String[] args) {
-        List<String> stringList = new ArrayList<>();
-        stringList.add("aaaaaa");
-        stringList.add("bbbbbbb");
-        stringList.add("ccccccc");
-        printList(stringList);
+    public static void addString(List<? super String> list){
+        list.add("added string");
     }
 
 }

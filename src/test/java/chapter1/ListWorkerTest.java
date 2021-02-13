@@ -52,4 +52,14 @@ class ListWorkerTest {
        long result = ListWorker.sumList(integerList);
        assertEquals(numberOfOnes, result);
     }
+
+    @Test
+    void addStringTest() {
+        List<String> stringList = new ArrayList<>();
+        stringList.add("aaaaa");
+        List<Object> objectList = new ArrayList<>(stringList);
+        ListWorker.addString(stringList);
+        ListWorker.addString(objectList);
+        assertEquals(stringList.get(stringList.size() - 1), objectList.get(objectList.size() - 1));
+    }
 }
