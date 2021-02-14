@@ -27,6 +27,7 @@ public class CollectionsDemonstrator {
         System.out.println(navigableSet.higher(19));
         System.out.println(navigableSet.lower(19));
 
+        List<String> newList = new ArrayList<>();
 
     }
 }
